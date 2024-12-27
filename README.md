@@ -39,6 +39,7 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
    - It then checks the number of neighboring B and T cells. If the count meets a specific threshold (e.g., 50), the cluster is classified as a "Lymphoid Aggregate".
    - Nodes in a classified cluster are marked to prevent reclassification in subsequent iterations.
 5. **Result Compilation**: The function compiles the results into a new DataFrame, listing the indices of the aggregate centers, their coordinates, and the classification.
+6. **Local App**: The function runs as an app on a local computer that asks for 2 variable entries; and produces the image with LA locations.
 
 ## Example
 ```python
