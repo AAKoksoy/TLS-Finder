@@ -7,7 +7,7 @@ doi: https://doi.org/10.1101/2024.12.26.630405
 TLS-Finder is licensed under GNU GPLv3.
 
 ## Description
-The TLS Finder is a Python script designed to classify clusters of cells into Tertiary Lymphoid Structures (TLS) categories using spatial data from immunofluorescence or immunohistochemistry datasets. The code uses a combination of KDTree for efficient spatial querying and NetworkX for graph-based cluster analysis.
+The TLS Finder is an algorithm written in Python, designed to classify clusters of cells into Tertiary Lymphoid Structures (TLS) categories using spatial data from immunofluorescence or immunohistochemistry datasets. The code uses a combination of KDTree for efficient spatial querying and NetworkX for graph-based cluster analysis.
 
 ## Dependencies
 - pandas
