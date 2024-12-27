@@ -40,6 +40,7 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
    - Nodes in a classified cluster are marked to prevent reclassification in subsequent iterations.
 5. **Result Compilation**: The function compiles the results into a new DataFrame, listing the indices of the aggregate centers, their coordinates, and the classification.
 6. **Local App**: The function runs as an app on a local computer that asks for 2 variable entries; and produces the image with LA locations.
+7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
 
 ## Example
 ```python
