@@ -2,8 +2,9 @@
 An algorithm in Python that locates the TLS and lymphoid aggregates in tissues using immune cell coordinates.
 If you find this code useful please cite as__ TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates; Ayse A Koksoy, Maria Esther Salvatierra, MOSAIC Team, Luisa Maren Solis Soto, Cara Haymaker; 
 doi: https://doi.org/10.1101/2024.12.26.630405
-
+ 
 # TLS Finder
+TLS-Finder is licensed under GNU GPLv3.
 
 ## Description
 The TLS Finder is a Python script designed to classify clusters of cells into Tertiary Lymphoid Structures (TLS) categories using spatial data from immunofluorescence or immunohistochemistry datasets. The code uses a combination of KDTree for efficient spatial querying and NetworkX for graph-based cluster analysis.
