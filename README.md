@@ -17,8 +17,6 @@ The TLS Finder is an algorithm written in Python, designed to classify clusters 
 ## Usage
 Import the script and use the `measure_TLS` function by passing a DataFrame that contains the cell coordinates and phenotypes. The DataFrame should have the columns `X`, `Y`, and `Phenotype`.
 
-  [![HitCount](https://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder.svg?style=flat-square)](http://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder)
-
 ## Function Details
 ### `measure_TLS(df, radius)`
 This function takes in a DataFrame and a radius for neighborhood analysis to classify cellular aggregates that resemble TLS based on their spatial proximity and phenotype.
@@ -44,6 +42,10 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 6. **Local App**: The function runs as an app on a local computer that asks for 2 variable entries; and produces the image with LA locations.
 7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
 
+[![HitCount](https://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder.svg?style=flat-square)](http://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder)
+
+  [![HitCount](https://hits.dwyl.com/{username}/{project}.svg?style=flat-square&show=unique)](http://hits.dwyl.com/{username}/{project})
+ 
 ## Example
 ```python
 import pandas as pd
