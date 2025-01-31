@@ -54,6 +54,9 @@ data = {
 }
 df = pd.DataFrame(data)
 
+## Hits
+[![HitCount](https://hits.dwyl.com/aakoksoy/AAKoksoy /TLS-Finder.svg?style=flat-square)](http://hits.dwyl.com/aakoksoy/AAKoksoy /TLS-Finder)
+
 # Using the function
 radius = 1.5  # Set the radius for neighborhood
 results = measure_TLS(df, radius)
