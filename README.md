@@ -44,8 +44,7 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 
 [![HitCount](https://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder.svg?style=flat-square)](http://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder)
 
-  [![HitCount](https://hits.dwyl.com/{username}/{project}.svg?style=flat-square&show=unique)](http://hits.dwyl.com/{username}/{project})
- 
+  [![HitCount](https://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder.svg?style=flat-square&show=unique)](http://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder)
 ## Example
 ```python
 import pandas as pd
