@@ -2,7 +2,7 @@
 An algorithm in Python that locates the TLS and lymphoid aggregates in tissues using immune cell coordinates.
 If you find this code useful please cite as__ TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates; Ayse A Koksoy, Maria Esther Salvatierra, MOSAIC Team, Luisa Maren Solis Soto, Cara Haymaker; 
 doi: https://doi.org/10.1101/2024.12.26.630405
- 
+
 # TLS Finder
 
 ## Description
@@ -16,6 +16,9 @@ The TLS Finder is an algorithm written in Python, designed to classify clusters 
 
 ## Usage
 Import the script and use the `measure_TLS` function by passing a DataFrame that contains the cell coordinates and phenotypes. The DataFrame should have the columns `X`, `Y`, and `Phenotype`.
+
+## Hits
+[![HitCount](https://hits.dwyl.com/aakoksoy/AAKoksoy /TLS-Finder.svg?style=flat-square)](http://hits.dwyl.com/aakoksoy/AAKoksoy /TLS-Finder) 
 
 ## Function Details
 ### `measure_TLS(df, radius)`
@@ -54,8 +57,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-## Hits
-[![HitCount](https://hits.dwyl.com/aakoksoy/AAKoksoy /TLS-Finder.svg?style=flat-square)](http://hits.dwyl.com/aakoksoy/AAKoksoy /TLS-Finder)
+
 
 # Using the function
 radius = 1.5  # Set the radius for neighborhood
