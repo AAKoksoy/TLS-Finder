@@ -42,6 +42,9 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 6. **Local App**: The function runs as an app on a local computer that asks for 2 variable entries; and produces the image with LA locations.
 7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
 
+[![HitCount](https://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder.svg?style=flat-square)](http://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder)
+
+  [![HitCount](https://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder.svg?style=flat-square&show=unique)](http://hits.dwyl.com/AAKoksoy/AAKoksoy/TLS-Finder)
 
 ## Example
 ```python
