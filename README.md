@@ -43,7 +43,7 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
 
 ![Visitor Count](https://profile-counter.glitch.me/{AAKoksoy}/count.svg)
-![](https://komarev.com/ghpvc/?username=AAKoksoy)
+
 
 ## Example
 ```python
