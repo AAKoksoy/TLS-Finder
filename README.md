@@ -44,7 +44,8 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 
 ![Visitor Count](https://profile-counter.glitch.me/{AAKoksoy}/count.svg)
 
-  [![HitCount](https://hits.dwyl.com/{AAKoksoy}/{TLS-Finder}.svg?style=flat)](http://hits.dwyl.com/AAKoksoy/TLS-Finder)
+ ![downloads](https://img.shields.io/github/downloads/AAKoksoy/TLS-Finder/total.svg)
+
 
 ## Example
 ```python
