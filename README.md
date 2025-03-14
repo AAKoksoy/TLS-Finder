@@ -57,4 +57,5 @@ data = {
 df = pd.DataFrame(data)
 ```
 
-<a href="https://clustrmaps.com/site/1c4wd" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=DmltlICmBQZ3Y-lcFKkyRDh1Uv319t6juKr9pJlvPfA&cl=ffffff"></a>
+## Global Visitors
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y-lcFKkyRDh1Uv319t6juKr9pJlvPfA"></script>
