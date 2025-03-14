@@ -42,7 +42,6 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 6. **Local App**: The function runs as an app on a local computer that asks for 2 variable entries; and produces the image with LA locations.
 7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
 
-
 ## Example
 ```python
 import pandas as pd
@@ -55,12 +54,8 @@ data = {
 }
 df = pd.DataFrame(data)
 
-
-
 # Using the function
 radius = 1.5  # Set the radius for neighborhood
 results = measure_TLS(df, radius)
 print(results)
 
-## User Stats
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y-lcFKkyRDh1Uv319t6juKr9pJlvPfA"></script>
