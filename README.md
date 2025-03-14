@@ -61,3 +61,5 @@ df = pd.DataFrame(data)
 radius = 1.5  # Set the radius for neighborhood
 results = measure_TLS(df, radius)
 print(results)
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y-lcFKkyRDh1Uv319t6juKr9pJlvPfA"></script>
