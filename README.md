@@ -1,5 +1,5 @@
 # TLS-Finder
-<!-- Google tag (gtag.js) -->
+'''<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SF9VTT0B1Y"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -7,7 +7,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-SF9VTT0B1Y');
-</script>
+</script> '''
 An algorithm in Python that locates the TLS and lymphoid aggregates in tissues using immune cell coordinates.
 If you find this code useful please cite as__ TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates; Ayse A Koksoy, Maria Esther Salvatierra, Patient Mosaic Team, Luisa Maren Solis Soto, Cara Haymaker; 
 ### doi: https://doi.org/10.1101/2024.12.26.630405
