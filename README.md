@@ -57,5 +57,3 @@ data = {
 df = pd.DataFrame(data)
 ```
 
-## Global Visitors
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y-lcFKkyRDh1Uv319t6juKr9pJlvPfA"></script>
