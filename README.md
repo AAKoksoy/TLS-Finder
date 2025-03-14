@@ -43,7 +43,7 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
 
 ## Example
-```python
+'''python
 import pandas as pd
 
 # Example data
@@ -53,7 +53,10 @@ data = {
     'Phenotype': ['CD20', 'CD8', 'CD20', 'CD8', 'CD20']
 }
 df = pd.DataFrame(data)
+'''
 
+##
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y-lcFKkyRDh1Uv319t6juKr9pJlvPfA"></script>
 # Using the function
 radius = 1.5  # Set the radius for neighborhood
 results = measure_TLS(df, radius)
