@@ -1,13 +1,5 @@
 # TLS-Finder
-'''<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SF9VTT0B1Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-SF9VTT0B1Y');
-</script> '''
 An algorithm in Python that locates the TLS and lymphoid aggregates in tissues using immune cell coordinates.
 If you find this code useful please cite as__ TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates; Ayse A Koksoy, Maria Esther Salvatierra, Patient Mosaic Team, Luisa Maren Solis Soto, Cara Haymaker; 
 ### doi: https://doi.org/10.1101/2024.12.26.630405
@@ -50,7 +42,7 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 5. **Result Compilation**: The function compiles the results into a new DataFrame, listing the indices of the aggregate centers, their coordinates, and the classification.
 6. **Local App**: The function runs as an app on a local computer that asks for 2 variable entries; and produces the image with LA locations.
 7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
-
+ ![Analytics](github.com/<project_path>) 
 ## Example
 
 ```python
