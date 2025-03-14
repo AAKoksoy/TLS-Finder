@@ -43,7 +43,6 @@ This function takes in a DataFrame and a radius for neighborhood analysis to cla
 7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
 
 ## Example
-## Example
 
 ```python
 import pandas as pd
@@ -56,17 +55,13 @@ data = {
 }
 
 df = pd.DataFrame(data)
-
-
+```
 
 ### JavaScript Snippet for Tracking
 
 ```markdown
 ## Tracking Globe
 
-Below is an HTML script for embedding a ClustrMaps globe to visually track visits to your site. Ensure this fits your project's privacy and functionality requirements before using.
-
 ```html
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y
-
-
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y-lcFKkyRDh1Uv319t6juKr9pJlvPfA"></script>
+```
