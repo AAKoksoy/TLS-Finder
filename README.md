@@ -58,13 +58,15 @@ data = {
 df = pd.DataFrame(data)
 
 
-For the JavaScript snippet, it looks like it's a tracking or mapping script. Ensure that it's necessary for your repository and consider privacy implications for users. If you still want to include it, here’s how you can add it to your GitHub README or other Markdown documents:
+
+### JavaScript Snippet for Tracking
 
 ```markdown
 ## Tracking Globe
-Embedding a ClustrMaps globe to track visits visually:
+
+Below is an HTML script for embedding a ClustrMaps globe to visually track visits to your site. Ensure this fits your project's privacy and functionality requirements before using.
 
 ```html
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y-lcFKkyRDh1Uv319t6juKr9pJlvPfA"></script>
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DmltlICmBQZ3Y
 
 
