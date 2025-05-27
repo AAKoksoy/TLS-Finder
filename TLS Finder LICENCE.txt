@@ -1,0 +1,13 @@
+TLS Finder - Academic Use License
+
+Copyright (c) 2025 Ayse A. Koksoy
+
+Permission is granted for academic, non-commercial research use ONLY under the following conditions:
+
+1. Attribution must be provided to Ayse A. Koksoy in all published and presented work that uses TLS Finder.
+2. All uses must cite:
+Koksoy AA. TLS Finder: A Graph-Based Tool for Detecting Tertiary Lymphoid Structures in Spatial Data. bioRxiv 2024. doi: https://doi.org/10.1101/2024.12.26.630405
+3. Commercial use, modification, or redistribution is prohibited without prior written consent.
+4. Users must contact the author for usage permissions or collaboration agreements.
+
+Contact: ayseakoksoy@gmail.com
