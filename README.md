@@ -10,7 +10,18 @@ If you use TLS Finder in your work, please cite the bioRxiv preprint:
 
 > Koksoy AA. *TLS Finder: A Graph-Based Tool for Detecting Tertiary Lymphoid Structures in Spatial Data.* bioRxiv 2024. doi: [10.1101/2024.12.26.630405](https://doi.org/10.1101/2024.12.26.630405)
 
-## Licensing and Citation
+## License and Contact Info
+🔒 License
+
+This software is released under a limited Academic Use License.
+Any academic use must include either:
+
+Co-authorship with Ayse A. Koksoy or
+
+Citation of TLS Finder as shown under the Citation section
+
+Commercial use, redistribution, making derivative code, modification, adaptation or unlicensed use is strictly prohibited.
+For permissions or collaborations, contact: ayseakoksoy@gmail.com
 
 📬 Contact for collaboration or permission: [ayseakoksoy@gmail.com](mailto:ayseakoksoy@gmail.com)
 
