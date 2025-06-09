@@ -8,7 +8,7 @@ TLS Finder is protected by an Academic Use License. Any use in publications, gra
 
 If you use TLS Finder in your work, please cite the bioRxiv preprint:
 
-> Koksoy AA. *TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates.* bioRxiv 2024. doi: [10.1101/2024.12.26.630405](https://doi.org/10.1101/2024.12.26.630405)
+> Koksoy AA. *TLS Finder: A Graph-Based Tool for Detecting Tertiary Lymphoid Structures in Spatial Data* bioRxiv 2024. doi: [10.1101/2024.12.26.630405](https://doi.org/10.1101/2024.12.26.630405)
 
 ## License and Contact Info
 🔒 License
@@ -27,7 +27,7 @@ For permissions or collaborations, contact: ayseakoksoy@gmail.com
 
 @article{koksoy2024tlsfinder,
   author    = {Ayse A. Koksoy},
-  title     = {TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates},
+  title     = {TLS Finder: A Graph-Based Tool for Detecting Tertiary Lymphoid Structures in Spatial Data},
   journal   = {bioRxiv},
   year      = {2024},
   doi       = {10.1101/2024.12.26.630405},
