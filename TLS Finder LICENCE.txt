@@ -1,13 +1,28 @@
-TLS Finder - Academic Use License
+TLS Finder – Academic Use License
 
 Copyright (c) 2025 Ayse A. Koksoy
 
-Permission is granted for academic, non-commercial research use ONLY under the following conditions:
+This software is licensed for academic, non-commercial research purposes only. Use of TLS Finder is subject to the following conditions:
 
-1. Attribution must be provided to Ayse A. Koksoy in all published and presented work that uses TLS Finder.
-2. All uses must cite:
-Koksoy AA. TLS Finder: A Graph-Based Tool for Detecting Tertiary Lymphoid Structures in Spatial Data. bioRxiv 2024. doi: https://doi.org/10.1101/2024.12.26.630405
-3. Commercial use, modification, or redistribution is prohibited without prior written consent.
-4. Users must contact the author for usage permissions or collaboration agreements.
+1. Attribution and Citation:
+   All published, presented, or publicly distributed work that uses TLS Finder must:
+   - Include appropriate attribution to the author: Ayse A. Koksoy
+   - Cite the associated preprint:
+     Koksoy AA. TLS Finder: A Graph-Based Tool for Detecting Tertiary Lymphoid Structures in Spatial Data. bioRxiv 2024. doi: https://doi.org/10.1101/2024.12.26.630405
 
-Contact: ayseakoksoy@gmail.com
+2. Prohibited Uses:
+   - Commercial use (including use in for-profit services, products, or consulting) is strictly prohibited.
+   - Redistribution, sublicensing, or sharing of the code or modified versions is not allowed.
+   - Modification of the source code for derivative works is prohibited without prior written consent from the author.
+
+3. Permissions and Collaborations:
+   Any use outside the scope of this license requires written permission from the copyright holder.
+   For collaboration inquiries, licensing, or commercial use, contact:
+   📧 ayseakoksoy@gmail.com
+
+4. Disclaimer:
+   This software is provided "as is", without warranty of any kind. The author is not liable for any damages resulting from the use of this software.
+
+By using TLS Finder, you agree to comply with the terms outlined above.
+
+© 2025 Ayse A. Koksoy. All rights reserved.
