@@ -23,8 +23,6 @@ Citation of TLS Finder as shown under the Citation section
 Commercial use, redistribution, making derivative code, modification, adaptation or unlicensed use is strictly prohibited.
 For permissions or collaborations, contact: ayseakoksoy@gmail.com
 
-📬 Contact for collaboration or permission: [aakoksoy@mdanderson.org](mailto:aakoksoy@mdanderson.org)
-
 @article{koksoy2024tlsfinder,
   author    = {Ayse A. Koksoy},
   title     = {TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates},
