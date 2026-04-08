@@ -1,28 +1,17 @@
-TLS Finder – Academic Use License
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
 
-Copyright (c) 2025 Ayse A. Koksoy
+Copyright 2026 Ayse A. Koksoy
 
-This software is licensed for academic, non-commercial research purposes only. Use of TLS Finder is subject to the following conditions:
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-1. Attribution and Citation:
-   All published, presented, or publicly distributed work that uses TLS Finder must:
-   - Include appropriate attribution to the author: Ayse A. Koksoy
-   - Cite the associated preprint:
-     Koksoy AA. TLS Finder: A Graph-Based Tool for Detecting Tertiary Lymphoid Structures in Spatial Data. bioRxiv 2024. doi: https://doi.org/10.1101/2024.12.26.630405
+    http://www.apache.org/licenses/LICENSE-2.0
 
-2. Prohibited Uses:
-   - Commercial use (including use in for-profit services, products, or consulting) is strictly prohibited.
-   - Redistribution, sublicensing, or sharing of the code or modified versions is not allowed.
-   - Modification of the source code for derivative works is prohibited without prior written consent from the author.
-
-3. Permissions and Collaborations:
-   Any use outside the scope of this license requires written permission from the copyright holder.
-   For collaboration inquiries, licensing, or commercial use, contact:
-   📧 ayseakoksoy@gmail.com
-
-4. Disclaimer:
-   This software is provided "as is", without warranty of any kind. The author is not liable for any damages resulting from the use of this software.
-
-By using TLS Finder, you agree to comply with the terms outlined above.
-
-© 2025 Ayse A. Koksoy. All rights reserved.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
