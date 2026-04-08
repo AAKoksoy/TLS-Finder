@@ -1,50 +1,137 @@
 # TLS Finder
 
-**An algorithm for identifying tertiary lymphoid structures using spatial immune cell organization**
+**Detection of tertiary lymphoid structures from spatial single-cell data**
 
 ---
 
 ## 🔬 Overview
 
-TLS Finder is a computational framework for detecting **tertiary lymphoid structures (TLS)** from spatial single-cell or multiplex imaging data.
+TLS Finder is a Python-based computational method for identifying **tertiary lymphoid structures (TLS)** from spatial imaging datasets such as multiplex immunofluorescence (mIF), CODEX, and immunohistochemistry.
 
-It is designed to bridge **biological interpretability** and **computational rigor**, enabling:
+The method combines:
 
-* Spatial identification of immune niches
-* Quantification of immune cell organization
-* Hypothesis generation for tumor-immune interactions
+* efficient spatial indexing
+* graph-based modeling
+* biologically informed clustering
+
+to detect organized immune aggregates relevant to tumor immunology and clinical outcomes.
 
 ---
 
 ## 🚀 Key Features
 
-* Detection of TLS from spatial coordinates
-* Graph-based spatial analysis (neighborhood modeling)
-* Flexible input (CODEX, mIF, spatial transcriptomics)
+* TLS detection from spatial coordinates
+* Graph-based modeling using NetworkX
+* Fast spatial queries via KDTree
+* Compatible with mIF, CODEX, and spatial transcriptomics
 * Scalable to large datasets
-* Designed for translational and clinical research
 
 ---
 
-## 🧠 Method Summary
+## ⚙️ Method Overview
 
-TLS Finder models spatial relationships between immune cells using distance-based neighborhood graphs and clustering logic to identify structured immune aggregates consistent with TLS biology.
+TLS Finder identifies structured immune aggregates through the following steps:
+
+1. **KDTree Construction**
+   Efficient spatial indexing of all cells for rapid neighbor lookup.
+
+2. **Graph Construction**
+   Cells are represented as nodes in a graph with phenotype and spatial attributes.
+
+3. **Edge Formation**
+   Edges are created between cells within a defined radius, forming spatial neighborhoods.
+
+4. **Cluster Identification**
+   Connected components are evaluated based on immune cell composition.
+
+5. **TLS Classification**
+   Clusters meeting biologically informed thresholds (e.g., B-cell and T-cell density) are classified as:
+
+   * Lymphoid Aggregates (LA)
+   * (extendable to more refined TLS categories)
 
 ---
 
 ## 📂 Input Requirements
 
-* Single-cell spatial coordinates (X, Y)
-* Cell type annotations (e.g., CD3+, B cells, etc.)
-* Optional: region labels (tumor vs stroma)
+A pandas DataFrame with:
+
+| Column    | Description                 |
+| --------- | --------------------------- |
+| X         | Cell X-coordinate           |
+| Y         | Cell Y-coordinate           |
+| Phenotype | Cell type (e.g., CD20, CD8) |
 
 ---
 
 ## 📊 Output
 
-* TLS regions / clusters
-* Spatial metrics
-* Visualization-ready outputs
+* DataFrame containing:
+
+  * TLS / aggregate centers
+  * coordinates
+  * classification labels
+
+* Visualization-ready outputs (for plotting TLS locations)
+
+---
+
+## 🧪 Core Function
+
+### `measure_TLS(df, radius)`
+
+#### Parameters
+
+* **df**: pandas DataFrame
+  Contains X, Y, and Phenotype columns
+
+* **radius**: float
+  Distance threshold for defining cellular neighborhoods
+
+#### Returns
+
+* DataFrame with:
+
+  * cluster indices
+  * TLS center coordinates
+  * classification labels
+
+---
+
+## 💻 Example Usage
+
+```python
+import pandas as pd
+from tls_finder import measure_TLS
+
+data = {
+    'X': [1, 2, 3, 4, 5],
+    'Y': [5, 4, 3, 2, 1],
+    'Phenotype': ['CD20', 'CD8', 'CD20', 'CD8', 'CD20']
+}
+
+df = pd.DataFrame(data)
+
+result = measure_TLS(df, radius=50)
+print(result)
+```
+
+---
+
+## 📦 Dependencies
+
+* pandas
+* numpy
+* scipy
+* networkx
+
+---
+
+## 🖥️ Applications
+
+* **Local analysis**: run on single datasets for TLS detection
+* **Web app integration**: interactive parameter selection and visualization
+* **Pipeline integration**: plug into spatial omics workflows
 
 ---
 
@@ -61,7 +148,7 @@ https://doi.org/10.1101/2024.12.26.630405
 
 ## 🤝 Contributing
 
-Contributions, improvements, and discussions are welcome.
+Contributions and improvements are welcome.
 Please open an issue or submit a pull request.
 
 ---
@@ -80,64 +167,3 @@ Computational scientist in spatial omics and multiplex imaging
 "I build AI-assisted pipelines that integrate spatial, transcriptomic, and imaging data into interpretable biological insights."
 
 ---
-
-## 💡 Notes
-
-This tool is intended for research use and aims to support reproducible and interpretable spatial analysis workflows.
-
----
-
-# Specifics of TLS Finder
-
-## Description
-The TLS Finder is an algorithm written in Python, designed to classify clusters of cells into Tertiary Lymphoid Structures (TLS) categories using spatial data from immunofluorescence or immunohistochemistry datasets. The code uses a combination of KDTree for efficient spatial querying and NetworkX for graph-based cluster analysis.
-
-## Dependencies
-- pandas
-- numpy
-- scipy
-- networkx
-
-## Usage
-Import the script and use the `measure_TLS` function by passing a DataFrame that contains the cell coordinates and phenotypes. The DataFrame should have the columns `X`, `Y`, and `Phenotype`.
-
-## Function Details
-### `measure_TLS(df, radius)`
-This function takes in a DataFrame and a radius for neighborhood analysis to classify cellular aggregates that resemble TLS based on their spatial proximity and phenotype.
-
-#### Parameters:
-- `df` : pandas DataFrame containing the columns `X`, `Y`, and `Phenotype`.
-  - `X` and `Y` are coordinates of the cells.
-  - `Phenotype` indicates the type of cell, important for identifying relevant clusters.
-- `radius` : float. The radius within which to consider other cells as neighbors.
-
-#### Returns:
-- A DataFrame containing the indices, coordinates of the centers of identified TLS, and their classifications.
-
-### Process Overview:
-1. **KDTree Construction**: A KDTree is built for the entire set of cells to facilitate rapid spatial queries.
-2. **Graph Construction**: A NetworkX graph is initialized, and nodes are added for each cell, with attributes for phenotype and coordinates.
-3. **Edge Creation**: Edges are added between nodes that are within the specified radius of each other, creating a connected graph based on spatial proximity.
-4. **TLS Classification**:
-   - For each B cell (`CD20`) or T cell (`CD8`) that hasn't been processed, the function searches for neighboring cells within the given radius.
-   - It then checks the number of neighboring B and T cells. If the count meets a specific threshold (e.g., 50), the cluster is classified as a "Lymphoid Aggregate".
-   - Nodes in a classified cluster are marked to prevent reclassification in subsequent iterations.
-5. **Result Compilation**: The function compiles the results into a new DataFrame, listing the indices of the aggregate centers, their coordinates, and the classification.
-6. **Local App**: The function runs as an app on a local computer that asks for 2 variable entries; and produces the image with LA locations.
-7. **Web App**: The function runs as a webb app,that asks for 2 variable entries; and produces the image with LA locations.
-
-## Example
-
-```python
-import pandas as pd
-
-# Example data
-data = {
-    'X': [1, 2, 3, 4, 5],
-    'Y': [5, 4, 3, 2, 1],
-    'Phenotype': ['CD20', 'CD8', 'CD20', 'CD8', 'CD20']
-}
-
-df = pd.DataFrame(data)
-```
-
