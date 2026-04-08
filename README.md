@@ -1,39 +1,93 @@
-# TLS-Finder
+# TLS Finder
 
-An algorithm in Python that locates the TLS and lymphoid aggregates in tissues using immune cell coordinates.
+**An algorithm for identifying tertiary lymphoid structures using spatial immune cell organization**
 
-TLS Finder is protected by an Academic Use License. Any use in publications, grant-funded projects, or derivative works requires co-authorship or written citation.
+---
+
+## 🔬 Overview
+
+TLS Finder is a computational framework for detecting **tertiary lymphoid structures (TLS)** from spatial single-cell or multiplex imaging data.
+
+It is designed to bridge **biological interpretability** and **computational rigor**, enabling:
+
+* Spatial identification of immune niches
+* Quantification of immune cell organization
+* Hypothesis generation for tumor-immune interactions
+
+---
+
+## 🚀 Key Features
+
+* Detection of TLS from spatial coordinates
+* Graph-based spatial analysis (neighborhood modeling)
+* Flexible input (CODEX, mIF, spatial transcriptomics)
+* Scalable to large datasets
+* Designed for translational and clinical research
+
+---
+
+## 🧠 Method Summary
+
+TLS Finder models spatial relationships between immune cells using distance-based neighborhood graphs and clustering logic to identify structured immune aggregates consistent with TLS biology.
+
+---
+
+## 📂 Input Requirements
+
+* Single-cell spatial coordinates (X, Y)
+* Cell type annotations (e.g., CD3+, B cells, etc.)
+* Optional: region labels (tumor vs stroma)
+
+---
+
+## 📊 Output
+
+* TLS regions / clusters
+* Spatial metrics
+* Visualization-ready outputs
+
+---
 
 ## 📖 Citation
 
-If you use TLS Finder in your work, please cite the bioRxiv preprint:
+If you use TLS Finder in your research, please cite:
 
-> Koksoy AA. *TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates* bioRxiv 2024. doi: [10.1101/2024.12.26.630405](https://doi.org/10.1101/2024.12.26.630405)
+Koksoy, A.A. (2024).
+*TLS_Finder: An algorithm for identifying tertiary lymphoid structures using immune cell spatial coordinates.*
+bioRxiv
+https://doi.org/10.1101/2024.12.26.630405
 
-## License and Contact Info
-🔒 License
+---
 
-This software is released under a limited Academic Use License.
-Any academic use must include either:
+## 🤝 Contributing
 
-Co-authorship with Ayse A. Koksoy or
+Contributions, improvements, and discussions are welcome.
+Please open an issue or submit a pull request.
 
-Citation of TLS Finder as shown under the Citation section
+---
 
-Commercial use, redistribution, making derivative code, modification, adaptation or unlicensed use is strictly prohibited.
-For permissions or collaborations, contact: ayseakoksoy@gmail.com
+## 📜 License
 
-@article{koksoy2024tlsfinder,
-  author    = {Ayse A. Koksoy},
-  title     = {TLS_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates},
-  journal   = {bioRxiv},
-  year      = {2024},
-  doi       = {10.1101/2024.12.26.630405},
-  url       = {https://doi.org/10.1101/2024.12.26.630405}
-}
+This project is licensed under the Apache License 2.0.
 
+---
 
-# TLS Finder
+## 👩‍🔬 Author
+
+**Ayse A. Koksoy, MD, PhD**
+Computational scientist in spatial omics and multiplex imaging
+
+"I build AI-assisted pipelines that integrate spatial, transcriptomic, and imaging data into interpretable biological insights."
+
+---
+
+## 💡 Notes
+
+This tool is intended for research use and aims to support reproducible and interpretable spatial analysis workflows.
+
+---
+
+# Specifics of TLS Finder
 
 ## Description
 The TLS Finder is an algorithm written in Python, designed to classify clusters of cells into Tertiary Lymphoid Structures (TLS) categories using spatial data from immunofluorescence or immunohistochemistry datasets. The code uses a combination of KDTree for efficient spatial querying and NetworkX for graph-based cluster analysis.
