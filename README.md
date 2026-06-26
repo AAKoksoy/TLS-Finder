@@ -20,7 +20,8 @@
 | **First Public Release** | December 26, 2024 |
 | **Purpose** | Automated detection of tertiary lymphoid structures from spatial immune-cell coordinates |
 | **Status** | Stable |
-| **TLS Finder is now part of the MOSAIC ecosystem for graph-native spatial biology|
+
+## TLS Finder is now part of the MOSAIC ecosystem for graph-native spatial biology
 
 # TLS Finder
 
