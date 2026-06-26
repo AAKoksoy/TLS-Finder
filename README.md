@@ -1,12 +1,12 @@
 <img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/1da54564-1b3f-4dfa-978e-78d598527fac" />
 
 # TLS Finder
-Published: December 2024 (bioRxiv)
-DOI https://doi.org/10.1101/2024.12.26.630405
-First public release: December 26, 2024. 18:00 hours
-Purpose: Automated detection of tertiary lymphoid structures from spatial immune-cell coordinates.
-Current status: Stable.
-Successor project: MOSAIC.**
+### Published: December 2024 (bioRxiv)
+### DOI https://doi.org/10.1101/2024.12.26.630405
+### First public release: December 26, 2024. 18:00 hours
+### Purpose: Automated detection of tertiary lymphoid structures from spatial immune-cell coordinates.
+### Current status: Stable.
+### Successor project: MOSAIC.**
 
 # TLS Finder
 
