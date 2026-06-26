@@ -2,6 +2,15 @@
 
 # TLS Finder
 
+**TLS Finder** is an open-source Python package for automated identification of tertiary lymphoid structures (TLS) from spatial immune-cell coordinate data.
+
+📄 **Original publication:** Koksoy et al., bioRxiv (2024)
+
+🔗 **DOI:** https://doi.org/10.1101/2024.12.26.630405
+
+📅 **First public release:** December 26, 2024
+
+
 ## Project Information
 
 | Item | Details |
@@ -11,8 +20,7 @@
 | **First Public Release** | December 26, 2024 |
 | **Purpose** | Automated detection of tertiary lymphoid structures from spatial immune-cell coordinates |
 | **Status** | Stable |
-
-**TLS Finder is now part of the MOSAIC ecosystem for graph-native spatial biology.
+|**TLS Finder is now part of the MOSAIC ecosystem for graph-native spatial biology|
 
 # TLS Finder
 
