@@ -10,6 +10,46 @@
 
 📅 **First public release:** December 26, 2024
 
+## 📖 Citation
+
+If you use TLS Finder in your research, please cite the original
+publication:
+
+> Koksoy, A.A., Salvatierra, M.E., MOSAIC Team, Solis Soto, L.M.,
+> Haymaker, C. (2024). *TLS_Finder: An algorithm for Identifying
+> Tertiary Lymphoid Structures Using Immune Cell Spatial
+> Coordinates.* bioRxiv.
+> https://doi.org/10.1101/2024.12.26.630405
+
+A `CITATION.cff` file is included in this repository — GitHub will
+show a **"Cite this repository"** button on the repo's main page
+(top right, under "About") that generates both the software citation
+and the article citation above in APA and BibTeX formats
+automatically.
+
+**BibTeX (article):**
+
+```bibtex
+@article{koksoy2024tlsfinder,
+  author  = {Koksoy, Ayse A. and Salvatierra, Maria Esther and {MOSAIC Team} and Solis Soto, Luisa Maren and Haymaker, Cara},
+  title   = {TLS\_Finder: An algorithm for Identifying Tertiary Lymphoid Structures Using Immune Cell Spatial Coordinates},
+  journal = {bioRxiv},
+  year    = {2024},
+  doi     = {10.1101/2024.12.26.630405},
+  url     = {https://doi.org/10.1101/2024.12.26.630405}
+}
+```
+
+**BibTeX (software):**
+
+```bibtex
+@software{koksoy_tlsfinder_software,
+  author  = {Koksoy, Ayse A.},
+  title   = {TLS Finder},
+  year    = {2024},
+  url     = {https://github.com/AAKoksoy/TLS-Finder}
+}
+```
 
 ## Project Information
 
