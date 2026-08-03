@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  If you use TLS Finder in your research or software, please cite
+  the software (below) and, where appropriate, the original
+  publication describing the method (see preferred-citation).
+title: "TLS Finder"
+abstract: >-
+  TLS Finder is an open-source Python package for automated
+  identification of tertiary lymphoid structures (TLS) from spatial
+  immune-cell coordinate data, combining spatial indexing, graph-based
+  modeling, and biologically informed clustering. TLS Finder is part
+  of the MOSAIC ecosystem for graph-native spatial biology.
+type: software
+authors:
+  - family-names: "Koksoy"
+    given-names: "Ayse A."
+    orcid: "https://orcid.org/0000-0003-3092-5410"
+    affiliation: "Independent Researcher"
+repository-code: "https://github.com/AAKoksoy/TLS-Finder"
+url: "https://github.com/AAKoksoy/TLS-Finder"
+license: Apache-2.0
+date-released: "2024-12-26"
+keywords:
+  - tertiary lymphoid structures
+  - spatial biology
+  - tumor microenvironment
+  - multiplex immunofluorescence
+  - CODEX
+  - graph-based image analysis
+  - computational pathology
+preferred-citation:
+  type: article
+  title: >-
+    TLS_Finder: An algorithm for Identifying Tertiary Lymphoid
+    Structures Using Immune Cell Spatial Coordinates
+  authors:
+    - family-names: "Koksoy"
+      given-names: "Ayse A."
+      orcid: "https://orcid.org/0000-0003-3092-5410"
+    - family-names: "Salvatierra"
+      given-names: "Maria Esther"
+    - name: "MOSAIC Team"
+    - family-names: "Solis Soto"
+      given-names: "Luisa Maren"
+    - family-names: "Haymaker"
+      given-names: "Cara"
+  year: 2024
+  journal: "bioRxiv"
+  doi: "10.1101/2024.12.26.630405"
+  url: "https://doi.org/10.1101/2024.12.26.630405"
