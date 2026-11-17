@@ -85,7 +85,7 @@ downstream of any segmentation and phenotyping pipeline.
 pip install "tls-finder[plot] @ git+https://github.com/AAKoksoy/TLS-Finder"
 ```
 
-Requires Python ≥ 3.9 with NumPy, pandas and SciPy; matplotlib is needed only
+Requires Python ≥ 3.10 with NumPy, pandas and SciPy; matplotlib is needed only
 for plotting (`[plot]`).
 
 ## 🚀 Quick start
