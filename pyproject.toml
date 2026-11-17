@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tls-finder"
+dynamic = ["version"]
+description = "Detection of tertiary lymphoid structures from spatial single-cell coordinates"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [{ name = "Ayse A. Koksoy" }]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.3",
+    "scipy>=1.7",
+]
+keywords = [
+    "tertiary lymphoid structures",
+    "spatial biology",
+    "tumor microenvironment",
+    "multiplex immunofluorescence",
+    "CODEX",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.5"]
+test = ["pytest>=7", "matplotlib>=3.5"]
+
+[project.scripts]
+tls-finder = "tls_finder.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/AAKoksoy/TLS-Finder"
+Issues = "https://github.com/AAKoksoy/TLS-Finder/issues"
+Preprint = "https://doi.org/10.1101/2024.12.26.630405"
+
+[tool.setuptools.dynamic]
+version = { attr = "tls_finder.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

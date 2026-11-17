@@ -7,10 +7,10 @@ title: "TLS Finder"
 abstract: >-
   TLS Finder is an open-source Python package for automated
   identification of tertiary lymphoid structures (TLS) from spatial
-  immune-cell coordinate data, combining spatial indexing, graph-based
-  modeling, and biologically informed clustering. TLS Finder is part
-  of the MOSAIC ecosystem for graph-native spatial biology.
+  immune-cell coordinate data. TLS Finder is part of the MOSAIC
+  ecosystem for graph-native spatial biology.
 type: software
+version: "1.0.0"
 authors:
   - family-names: "Koksoy"
     given-names: "Ayse A."
@@ -26,7 +26,6 @@ keywords:
   - tumor microenvironment
   - multiplex immunofluorescence
   - CODEX
-  - graph-based image analysis
   - computational pathology
 preferred-citation:
   type: article
